@@ -1,0 +1,6 @@
+name: My Pagedown Site
+output_dir: docs
+output:
+  pagedown::html_paged:
+    toc: true
+    css: style.css

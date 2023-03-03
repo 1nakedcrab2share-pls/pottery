@@ -1,0 +1,50 @@
+---
+title: "Pottery Lessons in Devon"
+author: "Your Name"
+output:
+  bookdown::gitbook:
+    theme: null
+    code_folding: hide
+    config:
+      toc:
+        before: |
+          <li><a href="./">Home</a></li>
+        after: |
+          <li><a href="./references.html">References</a></li>
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+```{r code}
+pacman::p_load(tidyverse, magick)
+
+```
+
+## GitHub Documents
+
+This is an R Markdown format used for publishing markdown documents to GitHub. When you click the **Knit** button all R code chunks are run and a markdown file (.md) suitable for publishing to GitHub is generated.
+
+## Including Code
+
+You can include R code in the document as follows:
+
+```{r cars}
+summary(cars)
+```
+
+
+# Pottery Lessons in Devon
+
+Welcome to our pottery studio in Devon! We offer pottery lessons for all levels of experience, from beginners to advanced. Our classes are small and intimate, so you'll get plenty of one-on-one attention from our experienced instructors.
+Classes
+
+We offer a variety of classes to suit your needs, including:
+Beginner's Wheel Throwing
+Handbuilding Techniques
+Glazing and Firing
+
+Classes are held on weekends and weekday evenings. We also offer private lessons for individuals or groups.
+
